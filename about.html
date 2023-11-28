@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijan Rai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- header navlist part ,name ni rakhne -->
+    <div class="header "  >
+        <!-- name lekhnu ko lagi euta div -->
+        <div class="logo1 " >
+           
+            <section class="logo11">
+                <h1 >RIJAN RAI</h1>
+            </section>
+        </div>
+        <!-- about,blog,education,contact ko lagi -->
+        <div class="logo2 ">
+            <section class="logo22">
+                <nav class="list">
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html" >Home</a>
+                        <a href="about.html" class="active">About Me</a>
+                        <a href="education.html">Education</a>
+                        <a href="skills.html">Skills</a>
+                        <a href="hobby.html">Hobbies</a>
+                        <a href="contact.html" >Contact Me</a>
+
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+
+                </nav>
+            </section>
+        </div>
+    </div>
+    
+    <!-- About me -->
+    <!-- About Me -->
+    <div class="me">
+        <br>
+      <h1 style="text-align: center;">About Me</h1> <hr>
+    </div>
+    <br> <br> <br> <br>
+<div class="about">
+ <div class="about-me">
+     <section class="about-photo">
+         <img src="photos/rijann.jpg" alt="photo">
+     </section>
+     <section class="about-detail">
+         <h3>My name is Rijan Rai son of Mahendra Rai and Bichari Limbu. I was born in 2002 A.D at Bhedetar,Dhankuta. Right now I am studying at Central Campus of Technology at Dharan. I am a newbie web developer.</h3>
+     </section>
+ </div>
+</div>
+    <!-- End of About me -->
+
+
+
+
+
+
+   <!-- `Javascript ko code -->
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
