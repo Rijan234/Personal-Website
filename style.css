@@ -385,11 +385,11 @@ hr{
 
 /* hobbies */
 @media only screen and (max-width:600px){
-   .hobbies{
+  .hobbies{
     width: 90%;
     margin-top: 30px;
   
-   }
+  }
    .hobby{
     all: revert;
    }
@@ -399,3 +399,21 @@ hr{
    }
   }
 /* end of hobbies */
+/* contact */
+.fb img{
+  width: 100px;
+}
+.fb{
+  transition: 1s;
+}
+.fb:hover{
+  background-color: darkgrey;
+}
+
+
+  @media only screen and (max-width:600px){
+    .fb img{
+      width: 50px;
+    }
+  }
+  /* end of contact */
